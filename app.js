@@ -1,5 +1,6 @@
 console.log("Hello World!\n==========\n");
 
+
 // Exercise 1 Section
 console.log("EXERCISE 1:\n==========\n");
 
@@ -14,6 +15,7 @@ function arrSum(numbers) {
 
 console.log(arrSum(numbers));
 
+
 // Exercise 2 Section
 console.log("EXERCISE 2:\n==========\n");
 
@@ -24,7 +26,7 @@ book.author = "J. K. Rowling";
 book.pages = "223";
 book.readCount = 0;
 book.info = function () {
-    return `Title: ${this.title} - Author: ${this.author} - Pages: ${this.pages}`;
+    return `Title:\n${this.title}\n\nAuthor:\n${this.author}\n\nPages:\n${this.pages}\n`;
 };
 
 console.log(book.info());
